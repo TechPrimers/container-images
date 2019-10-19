@@ -17,7 +17,7 @@ Use this token - `524ea08fef8c273c2f739920a8427b502f7dc789`
 ### Push the images to the Github package registry
 - `docker push docker.pkg.github.com/techprimers/container-images/containers-demo:v1`
 
-### Dockerfile contents
+### Dockerfile
 ```
 FROM openjdk:8-jdk-alpine
 COPY target/containers-demo.jar containers-demo.jar
